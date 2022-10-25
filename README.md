@@ -1,2 +1,2 @@
-# DaveCorpRetailManager
-A retail management system built by DaveCorp Enterprise Solutions
+# DaveCoRetailManager
+A retail management system built by DaveCo Enterprise Solutions
