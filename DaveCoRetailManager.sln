@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRMDataManager", "DRMDataManager\DRMDataManager.csproj", "{9DFC85EF-8C07-489D-A884-7B22CB71F416}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DRMData", "DRMData\DRMData.sqlproj", "{18C85202-A036-4D95-A603-52E2A3502499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRMDesktopUI", "DRMDesktopUI\DRMDesktopUI.csproj", "{6E00AB43-32C2-42FD-ADE4-D4BF8CE4BF23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{9DFC85EF-8C07-489D-A884-7B22CB71F416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFC85EF-8C07-489D-A884-7B22CB71F416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DFC85EF-8C07-489D-A884-7B22CB71F416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C85202-A036-4D95-A603-52E2A3502499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C85202-A036-4D95-A603-52E2A3502499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C85202-A036-4D95-A603-52E2A3502499}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{18C85202-A036-4D95-A603-52E2A3502499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C85202-A036-4D95-A603-52E2A3502499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C85202-A036-4D95-A603-52E2A3502499}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6E00AB43-32C2-42FD-ADE4-D4BF8CE4BF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E00AB43-32C2-42FD-ADE4-D4BF8CE4BF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E00AB43-32C2-42FD-ADE4-D4BF8CE4BF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E00AB43-32C2-42FD-ADE4-D4BF8CE4BF23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
