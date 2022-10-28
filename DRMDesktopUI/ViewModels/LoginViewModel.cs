@@ -43,6 +43,37 @@ namespace DRMDesktopUI.ViewModels
             }
         }
 
+
+        public bool IsErrorVisible
+        {
+            get 
+            {
+                bool output = false;
+
+                if (ErrorMessage?.Length > 0)
+                {
+                    output = true;
+                }
+
+                return output; 
+            }            
+        }
+
+        private string _errorMessage;
+
+        public string ErrorMessage
+        {
+            get { return _errorMessage; }
+            set 
+            {
+                _errorMessage = value; 
+                NotifyOfPropertyChange(() => IsErrorVisible);
+                NotifyOfPropertyChange(() => ErrorMessage);
+            }
+        }
+
+
+
         public bool CanLogIn
         {
             get
@@ -62,12 +93,13 @@ namespace DRMDesktopUI.ViewModels
         {
             try
             {
+                ErrorMessage = "";
                 var result = await _apiHelper.Authenticate(UserName, Password);
             }
             catch (Exception ex)
             {
 
-                Console.WriteLine(ex.Message);
+                ErrorMessage = ex.Message;
             }
         }
     }
