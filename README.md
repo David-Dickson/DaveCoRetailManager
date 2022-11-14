@@ -17,7 +17,6 @@ I will be creating a Windows desk top application that runs a cash register, han
 * Dependency Injection
 * WPF
 * ASP.NET MVC
-* .NET Core
 * SSDT
 * Git
 * CI/CD with Azure DevOps
